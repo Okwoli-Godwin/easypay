@@ -1,14 +1,10 @@
 import React from 'react'
-import Body from './Components/Body'
-import Header from './Components/Header'
-
-
+import Allroutes from './components/Allroutes/Allroutes'
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <Body />
+      <Allroutes />
     </div>
   )
 }
